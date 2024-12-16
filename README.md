@@ -93,7 +93,7 @@
 
 
 
-## 请联系<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/142308812/395619164-ce692a3c-4bfb-480e-997a-6c5d3394f966.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241213T155415Z&X-Amz-Expires=300&X-Amz-Signature=edfbdcb241e8c04a2c74244c377ca8959e724c3c8b742ee27180fdd0bba2a143&X-Amz-SignedHeaders=host" width="24px" height="24px" />：<a href="https://t.me/AXPay06" target="_blank">商务合作</a>
+## 请联系飞机：<a href="https://t.me/AXPay06" target="_blank">商务合作</a>
 
 
 
