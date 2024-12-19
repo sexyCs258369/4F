@@ -98,20 +98,65 @@
 
 
 ### 4.机器人管理
+#### 4.1 配置机器人
+
+  如果第一次接触TG机器人，需要到TG上注册一个机器人，获取token，进行设置，同时需要注册webhook方式，将机器人绑定到系统中去。**请注意：如果是新部署的服务器域名必须要安装证书，也就是需要支持https**
+
+![image](https://github.com/user-attachments/assets/deaecf73-e0d4-4ee0-b4d8-0b9cadc4f03e)
+![image](https://github.com/user-attachments/assets/2ef14014-6a75-483b-b166-62b8e9cf949c)
+![image](https://github.com/user-attachments/assets/bffc7f90-3573-4ae4-8ebf-54afea6b35dd)
 
 
+#### 4.2 群组管理
+
+这里的群组由运营人员，建好群后，并将机器人拉入群中，作为管理员权限，就会自动将群信息推送到后台系统中。如果运营人员通过命令绑定商户，就会自动关联群组。如果没有绑定，则显示**暂未关联商户**。同时，也可以自己建好群（**频道**）。建好群后，也可以添加群成员，设定权限。
+
+![image](https://github.com/user-attachments/assets/6b13f592-e6b5-4061-bf64-e5d576376063)
+![image](https://github.com/user-attachments/assets/79a68791-084a-41fc-a0b6-9e36d5107b61)
+
+#### 4.3 消息管理
+
+这里可以新增消息，选择对应的群，进行转发
+
+![image](https://github.com/user-attachments/assets/0f3e1697-9d1b-477e-a8bf-ebee7244c6d9)
+![image](https://github.com/user-attachments/assets/8741d977-b7ab-4630-916c-941927bede7b)
 
 ### 5.回收站管理
 
+这里是为了方便运营人员，在查看对接信息时（之前已经对接过的供应商或者通道，**近期没有进行运营**）过于杂乱，不方便实时查看有哪些通道在使用。如果您要使用的话，也可以点击**恢复**。
+
+![image](https://github.com/user-attachments/assets/847b126c-afe3-4ada-8142-3ccf8651d45c)
+![image](https://github.com/user-attachments/assets/41629ac0-42f2-4333-9af5-83ded3dc0050)
 
 
 ### 6.结算管理
 
+目前结算都是在TG中进行，这里基本已经不使用了
+
+![image](https://github.com/user-attachments/assets/37160362-b724-4cbe-8b54-a938760efa43)
 
 
 ### 7.系统配置
 
+ #### 7.1 用户角色管理
 
+可以针对不同用户设置不同角色和访问页面的权限。
+![image](https://github.com/user-attachments/assets/0bc1feb3-327b-4618-adee-e0a9c3333fc1)
+
+
+#### 7.2 系统配置
+
+1.配置系统应用信息: 包括商户平台网址、运营平台网址、支付网关地址等
+
+![image](https://github.com/user-attachments/assets/72d6bb1d-2a7a-43a7-b86b-26d669dce06e)
+
+
+2.商户信息配置：主要配置商户的初始密码
+![image](https://github.com/user-attachments/assets/5654d962-8a99-4cc9-afba-44f4980c706d)
+
+
+3.运营人员初始化：可以下载模板，提前预设群成员的运营人员，进行导入
+![image](https://github.com/user-attachments/assets/a408ed98-bf18-434f-bcad-a32774d710c5)
 
 
 
