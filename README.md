@@ -1,32 +1,48 @@
 # 说明
 
-**青云四方支付系统-是一款支持多商户、多通道、对接配置的聚合支付系统**
+**青云四方支付系统-是一款支持多商户、多通道、能够自由进行对接配置、自带机器人服务的聚合支付系统**
 
 # 总体概况
 ![image](https://github.com/user-attachments/assets/957a4dce-f09a-4106-96f5-e151a7d52c50)
 
-# 重点业务
+![image](https://github.com/user-attachments/assets/e3d6b583-464e-4ea2-9514-ad0dfaae5fe8)
 
-**系统核心：运营端 + 商户端 + 对接**
-
-
-## 1.运营端
-
-### 1.1 登录界面
-
-![image](https://github.com/user-attachments/assets/a8f21cd0-a761-4caf-b77e-fb77e9e18d2d)
+![image](https://github.com/user-attachments/assets/f2bd7289-3640-4c3b-928b-8799c8913271)
 
 
-### 1.2 运营后台界面
+# 业务描述
 
-![image](https://github.com/user-attachments/assets/31ddaa3e-46ec-4592-93a5-4eee59582e61)
+**针对系统不同功能，对应不同使用人员**
+
+### 运营端：四方运营人员、系统购买方
+###### 1.开户（给商户开通账号）
+###### 2.对接通道（通道供应商对接）
+###### 3.测试下单、补单
+###### 4.配置TG机器人、群发TG消息
+###### 5.其他功能
+
+### 商户端：四方运营人员的客户、系统购买方的客户
+###### 1.查看开户信息（商户ID,密钥等）
+###### 2.查看对接文档
+###### 3.测试下单
+###### 4.其他功能
+
+### 对接：四方运营人员、四方技术团队、系统购买方
+###### 1.提供四方对接文档给商户。（由四方技术团队协助、系统购买方）
+###### 2.对接通道。（由四方技术团队对接、系统购买方）
+###### 3.测试对接情况。（由四方技术团队、四方运营人员协助、系统购买方）
+
+### TG机器人：四方运营人员、系统购买方
+###### 1.四方运营人员（系统购买方）在系统配置运营人员
+###### 2.四方运营人员（系统购买方）在系统配置机器人相关信息
+###### 3.四方运营人员（系统购买方）在TG中创建针对商户的业务群，将已经配置好的机器人拉进群，并设置群管理角色
 
 
-**运营后台主要包括**
+# 运营端部分演示
 
 ### 1.商户管理
 
-​	商户管理主要用来，创建商户，也就是开户，配置产品费率，以及配置产品对应跑的通道，中间有利润差，才是我们盈利的根本。
+​	商户管理主要用来，创建商户，也就是开户，配置产品费率，以及配置产品对应跑的通道。
 
 #### 1.1 商户列表
 ![image](https://github.com/user-attachments/assets/842f1e8e-f9c7-426b-b118-be9704d3e93f)
@@ -125,51 +141,63 @@
 #### 4.3 消息管理
 
 这里可以新增消息，选择对应的群，进行转发
-
-![image](https://github.com/user-attachments/assets/0f3e1697-9d1b-477e-a8bf-ebee7244c6d9)
-![image](https://github.com/user-attachments/assets/8741d977-b7ab-4630-916c-941927bede7b)
-
-### 5.回收站管理
-
-这里是为了方便运营人员，在查看对接信息时（之前已经对接过的供应商或者通道，**近期没有进行运营**）过于杂乱，不方便实时查看有哪些通道在使用。如果您要使用的话，也可以点击**恢复**。
-
-![image](https://github.com/user-attachments/assets/847b126c-afe3-4ada-8142-3ccf8651d45c)
+![image](https://github.com/user-attachments/assets/dadfaf76-2957-4acc-8fd3-420184b298cf)
 ![image](https://github.com/user-attachments/assets/41629ac0-42f2-4333-9af5-83ded3dc0050)
+![image](https://github.com/user-attachments/assets/625b3ad7-d7b8-4606-8cd0-f98daddb246f)
+
+# 商户系统部分演示
+### 1.商户首页
+包括商户的基本信息，对接信息等
+![image](https://github.com/user-attachments/assets/4be32ffc-04f4-486c-8976-c7a471261d42)
+
+### 2.商户收银台
+这里可以测试下单
+![image](https://github.com/user-attachments/assets/c35b6b93-36e2-44ad-b5fd-53d3f5fb612a)
 
 
-### 6.结算管理
+# 对接
+**对接在运营端中支付配置下的供应商管理界面。**
 
-目前结算都是在TG中进行，这里基本已经不使用了
+# TG机器人
+**TG机器人在运营端中机器人管理界面**
 
-![image](https://github.com/user-attachments/assets/37160362-b724-4cbe-8b54-a938760efa43)
+日常机器人常见运营截图展示：
+##### 1.绑定商户
+![image](https://github.com/user-attachments/assets/9e2ff303-8d26-44a9-aaea-ecf072830a2f)
 
+##### 2.新增预付，及预付历史详情
+![image](https://github.com/user-attachments/assets/a9359ee7-ccab-4e91-80e3-e8b4f475d2d6)
+![image](https://github.com/user-attachments/assets/67c5cc1d-b909-4daa-84cb-b21c4cb26f88)
 
-### 7.系统配置
+##### 3.查单
+![image](https://github.com/user-attachments/assets/a2be72f9-df68-42c5-80a8-5c2fbd675b81)
 
- #### 7.1 用户角色管理
+##### 4.今日账单
+![image](https://github.com/user-attachments/assets/0816d345-2eb1-458d-90d3-ab7f5804adca)
 
-可以针对不同用户设置不同角色和访问页面的权限。
-![image](https://github.com/user-attachments/assets/0bc1feb3-327b-4618-adee-e0a9c3333fc1)
-
-
-#### 7.2 系统配置
-
-1.配置系统应用信息: 包括商户平台网址、运营平台网址、支付网关地址等
-
-![image](https://github.com/user-attachments/assets/72d6bb1d-2a7a-43a7-b86b-26d669dce06e)
-
-
-2.商户信息配置：主要配置商户的初始密码
-![image](https://github.com/user-attachments/assets/5654d962-8a99-4cc9-afba-44f4980c706d)
-
-
-3.运营人员初始化：可以下载模板，提前预设群成员的运营人员，进行导入
-![image](https://github.com/user-attachments/assets/a408ed98-bf18-434f-bcad-a32774d710c5)
+##### 5.补单,以及查看补单历史记录
+![image](https://github.com/user-attachments/assets/bf0930cf-8b7f-41e5-b91e-a6cfaf544139)
+![image](https://github.com/user-attachments/assets/8d6b51c9-3c07-4076-981d-4094caa20642)
+![image](https://github.com/user-attachments/assets/4e7027cb-15c7-4b27-9088-8716a10429fd)
 
 
 
 
-## 请联系飞机：<a href="https://t.me/AXPay06" target="_blank">商务合作</a>
+# 合作模式
+## 方式1：出租
+#### 服   务： 我们代买 服务器 + 域名 + 域名免费升级https + 搭建部署免费  + 功能更新不收费 
+#### 通道对接：24+7技术在线服务 免费对接
+#### 机 器 人：带查单/对账机器人（免费）
+#### 收费： 
+##### ✅日流水一百万以下部分系统费收取千1%，超过一百万部分收费万八%。
+##### ✅服务器搭建费用3000/包含一个月服务器，五百系统费，服务器续费1800/月。
+##### ✅充值按照欧意实时上浮0.1
+## 方式2：出售
+#### 只出售源码，不代买(服务器 + 域名 + 域名免费升级https)，不帮忙搭建部署免费  + 不帮忙功能更新
+
+# 商务合作
+
+## 请联系飞机：<a href="https://t.me/AXPay06" target="_blank">详谈</a>
 
 ## 有什么需求，您也可以直接在Issues中，进行提交。感谢！！！
 
