@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/f2bd7289-3640-4c3b-928b-8799c8913271)
 
 # 商务合作
-## 请联系飞机：<a href="https://t.me/AXPay06" target="_blank">详谈</a>
+## 请联系飞机：<a href="https://t.me/yuanzitech" target="_blank">详谈</a>
 
 # 业务描述
 
@@ -199,7 +199,7 @@
 
 # 商务合作
 
-## 请联系飞机：<a href="https://t.me/AXPay06" target="_blank">详谈</a>
+## 请联系飞机：<a href="https://t.me/yuanzitech" target="_blank">详谈</a>
 
 ## 有什么需求，您也可以直接在Issues中，进行提交。感谢！！！
 
